@@ -1,13 +1,11 @@
+/* Beginning of header section  */
 nav  {
   background-color: #403345;
 }
 
-.container1 {
+#navContainer {
   display: flex;
-}
-
-.box1, .box2, box3 {
-  flex:1;
+  justify-content: space-between;
 }
 
 #title {
@@ -22,3 +20,44 @@ i {
 .fas {
   padding-right: 20px;
 }
+/* End of Header section  */
+
+/* Beginning of Orders section  */
+
+#tabs {
+  display: flex;
+  background-color: #342A39;
+  justify-content: space-around;
+  color: #00C485;
+  padding-top: 20px;
+}
+
+#active, #completed {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#active {
+  border-bottom: 3px solid #00C485;
+}
+
+.completedCounter, .activeCounter {
+  /* margin-left: 15px; */
+  color: #fff;
+  width: 15%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.activeCounter {
+  background-color: #D9005D;
+  padding-top: 3px;
+}
+
+.completedCounter {
+  background-color: #00C485;
+  padding-top: 3px;
+}
+/* End of Orders section  */
