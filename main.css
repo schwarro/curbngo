@@ -36,7 +36,11 @@ i {
   width: 100%;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+#active:hover, #completed:hover {
+  cursor: pointer;
 }
 
 #active {
@@ -44,20 +48,19 @@ i {
 }
 
 .completedCounter, .activeCounter {
-  /* margin-left: 15px; */
   color: #fff;
-  width: 15%;
+  width: 30px;
   border-radius: 5px;
   font-weight: bold;
+  margin-left: 5%;
+  padding-top: 3px;
 }
 
 .activeCounter {
   background-color: #D9005D;
-  padding-top: 3px;
 }
 
 .completedCounter {
   background-color: #00C485;
-  padding-top: 3px;
 }
 /* End of Orders section  */
