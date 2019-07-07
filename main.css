@@ -116,16 +116,14 @@ i {
 .rightOrder {
   margin: 2% 7% 0 0;
   display: flex;
-  /* margin-top: 2%;
-  margin-right: 7%; */
 }
 
 .status {
-  margin-right: 15%;
+  margin-right: 30%;
 }
 
 .arrow i{
-  margin: 70% 15% 0 20%;
+  margin: 70% 15% 0 60%;
   color: #11CB87;
 };
 
