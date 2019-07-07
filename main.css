@@ -32,27 +32,30 @@ i {
   padding-top: 20px;
 }
 
-#active, #completed {
+.tab {
   width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
-#active:hover, #completed:hover {
+.tab:hover {
   cursor: pointer;
 }
 
-#active {
+.active {
   border-bottom: 3px solid #00C485;
 }
 
-.completedCounter, .activeCounter {
+.tab h3{
+  margin: auto 0;
+}
+
+.counter {
   color: #fff;
   width: 30px;
   border-radius: 5px;
   font-weight: bold;
-  margin-left: 5%;
   padding-top: 3px;
 }
 
@@ -63,4 +66,67 @@ i {
 .completedCounter {
   background-color: #00C485;
 }
+
+.order {
+  display: flex;
+}
+
+.leftOrder {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 3%;
+  width: 90%;
+}
+
+.newOrder {
+  background-color: #D9005D;
+  color: white;
+}
+
+.btn-success {
+  background-color: #00C485 !important;
+  border: none !important;
+  outline: none !important;
+  margin-left: 100%;
+  height: 50%;
+}
+
+.notNew, .notNew i {
+  color: #D9005D;
+}
+
+.type p {
+  width: 65.8px;
+}
+
+.type {
+  text-align: center;
+  margin-left: 18%;
+}
+
+.fa-box {
+  color: #fff;
+  margin-left: 25%;
+}
+
+.description {
+  margin-left: 12%;
+}
+
+.rightOrder {
+  margin: 2% 0 0 10%;
+  display: flex;
+}
+
+.status {
+  margin-right: 5%;
+}
+
+.arrow i{
+  margin: 70% 0 0 10%;
+  color: #11CB87;
+};
+
+
+
 /* End of Orders section  */
