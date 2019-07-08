@@ -1,0 +1,121 @@
+/* Beginning of Header section  */
+.profile {
+  border-radius: 100%
+}
+
+.profileInfo {
+  color: #fff;
+  margin-top: 5%;
+}
+
+.profileArea {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-item, .icon2 {
+  margin-left: 25px;
+}
+
+.nav-item h4 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.navIcons a {
+  color: #fff;
+}
+
+/* End of header section  */
+
+/* Beginning of Main section  */
+
+.container {
+  padding: 0 !important;
+}
+
+/*Styling for company logos*/
+.welcome {
+  color: #00C485;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.support {
+  width: 423px;
+  text-align: center;
+}
+
+.support p {
+  margin-top: 3%;
+}
+
+.curb {
+  width: 30%;
+  height: 30%;
+}
+
+/*Placement of boxes*/
+
+.group2 {
+  display: flex;
+  flex-direction: column;
+}
+.pair {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+ }
+
+.group1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Styling for boxes*/
+
+.box {
+  height: 150px;
+  width: 175px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #C2C2C2;
+  border-radius: 7%;
+  margin: 1.5%;
+  padding: 20px;
+}
+
+.box2 {
+  margin-top: 5%;
+}
+
+.box3 {
+  color: #fff;
+  background-color: #D9005C;
+}
+
+.box5 {
+  color: #00C485;
+}
+
+.box8 {
+  color: #D9005C;
+}
+
+.box i {
+  margin-bottom: 10%;
+}
